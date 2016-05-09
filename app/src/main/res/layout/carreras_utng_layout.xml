@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cintillautng"
+        android:background="#0cb9ff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carreras"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:text="Ocupaciones profesionales\n
+El Técnico Superior Universitario en Tecnologías de la Información y Comunicación área Sistemas Informáticos podrá desempeñarse como:
+\n
+Analista de Sistemas.\n
+Programador de Sistemas.\n
+Administrador de Base de Datos.\n
+Gestor de TI.\n
+Diseñador de sitios Web.\n
+Ingeniero de Pruebas.\n
+Y desenvolverse en:\n
+\n\n
+Empresas públicas y privadas dedicadas al desarrollo y consultoría de software.
+Empresas públicas y privadas cuyo fin no sea el desarrollo de software en funciones de análisis, diseño, implementación, evaluación y venta de software.
+En su propia empresa de integración de soluciones de software.
+En los sectores privado, público y social, en las diferentes ramas productivas que demanden servicios de Tecnologías de la Información.
+En forma independiente mediante consultorías de bienes y servicios."/>
+    </ScrollView>
+
+</LinearLayout>

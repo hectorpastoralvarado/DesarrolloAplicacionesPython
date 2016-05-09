@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cintillautng"
+        android:background="#0cb9ff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aspirantes"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:text="¿Por qué estudiar en la UTNG?\n
+
+¡Las razones más importantes para estudiar en la UTNG!\n
+Somos una universidad pública, por ello nuestro accesible costo cuatrimestral de sólo $1000.00 pesos.
+En sólo 2 años, obtienes título de Técnico Superior Universitario y cédula profesional y cursando 1 año 8meses más, de Ingeniero.
+Gracias a la estadía empresarial, la cual puedes realizar en una de las 1010 empresas vinculadas por el departamento de prácticas y estadías, egresas con 8 meses de experiencia profesional,
+Las carreras que ofertamos son demandadas por el sector empresarial de la región y también con una proyección global.
+Nuestro modelo educativo privilegia la práctica sobre la teoría.
+Los procesos institucionales y programas educativos, están acreditados bajo normas internacionales de calidad.
+Te ofrecemos educación orientada a desarrollar en ti, competencias profesionales, personales y laborales.
+Programas de movilidad estudiantil, para becas al extranjero.
+La mejor infraestructura:\n
+4 edificios de docencia con 63 aulas de clases.\n
+Biblioteca regional con 25, 328 ejemplares.\n
+43 laboratorios especializados y equipados con tecnología de punta, donde se imparten clases prácticas de cada una de las carreras.
+1 Gimnasio – auditorio con capacidad para más de 1000 personas, cancha multiusos de básquet bol y voleibol con piso de duela tipo profesional, espacio para acondicionamiento físico y espacio para atención médica.
+Canchas deportivas de futbol soccer, fútbol rápido, básquet bol, voleibol, tennis y pista de atletismo.
+11 salas audiovisuales y de capacitación.\n
+Auditorio con capacidad para 160 personas
+1 sala de video conferencias.
+Equipos de cómputo, para clases y para investigaciones extra clase.
+Los mejores servicios a estudiantes:
+Departamento de salud física
+Departamentos Psicopedagógico
+Actividades culturales y Deportivas
+Lenguas extranjeras
+Bolsa de trabajo y seguimiento a egresados.."/>
+    </ScrollView>
+
+</LinearLayout>

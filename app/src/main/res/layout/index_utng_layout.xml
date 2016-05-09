@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"
+        android:background="@drawable/cintillautng"
+        android:id="@+id/imb_videopromo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:background="#0cb9ff"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Home"
+            android:textSize="10dp"
+            android:textColor="#faa506"
+            android:background="#2a2dd7"
+            android:id="@+id/btn_nosotros"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Carreras"
+            android:textSize="10dp"
+            android:textColor="#faa506"
+            android:background="#000000"
+            android:id="@+id/btn_carreras"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Aspirantes"
+            android:textSize="10dp"
+            android:textColor="#faa506"
+            android:background="#000000"
+            android:id="@+id/btn_aspirantes"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Regresar"
+            android:textSize="10dp"
+            android:textColor="#faa506"
+            android:background="#000000"
+            android:id="@+id/btn_regresar"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nosotros"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:background="#000"
+        android:id="@+id/imb_galeria"
+        />
+    <TextView
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Galleria"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:text="Misión\n
+Somos una institución de educación superior tecnológica que forma profesionistas competitivos a través de programas de calidad para contribuir al desarrollo del estado.
+
+Visión
+En el 2020 seremos reconocidos por nuestros egresados formados integral y globalmente, con empleabilidad acorde a su perfil superior a la media estatal; por nuestros programas de grado acreditados o evaluados al 100% y por contar con un postgrado; 15 % de nuestros profesores participarán en programas de movilidad y 50% de los cuerpos académicos estarán consolidados.
+
+Nos distinguiremos por un ambiente de equidad y sustentabilidad reconocidas y participaremos en 3 programas de investigación aplicada orientados a la innovación y transferencia tecnológica en proyectos sociales y productivos.
+\n
+Valores\n
+Para la UTNG los valores son el marco del comportamiento que deben tener sus integrantes, estos se determinaron en base a la razón de ser; al propósito de creación; y a la proyección en el futuro (visión) de la institución quedando redactados y descritos de la manera siguiente:
+\n
+Honestidad:\n
+
+Ofrecemos lo que podemos cumplir y nos esmeramos en lograrlo.\n
+Actuamos con exactitud y puntualidad.\n
+No dejamos los resultados al azar.\n
+Honramos y defendemos la propiedad ajena.\n
+Obramos con sentido consciente de justicia.\n
+Respetamos la verdad.\n
+Responsabilidad:\n
+\n
+Ponemos atención especial en nuestras decisiones.\n
+Damos la cara por nuestros actos y sus consecuencias.\n
+Somos previsores: planificamos y trabajamos con orden.\n
+Reconocemos nuestros errores al tiempo que buscamos corregirlos.\n
+Respeto:\n
+
+Tratamos a las personas con dignidad y apreciamos sus opiniones.\n
+Tenemos consideración y deferencia con los sentimientos de los otros.\n
+Nos esforzamos por comprender sus situaciones particulares.\n
+Trabajo en equipo:\n
+El éxito de nuestra organización lo construimos juntos.
+Formamos equipo con todo compañero, incluidos los no afines.
+La armonía no se logra por casualidad: Se basa en el conocimiento y el aprecio por todos los miembros del equipo.
+Participamos activamente en equipos de alto desempeño y multidisciplinarios.
+Trabajo en equipo\n
+\n
+El éxito de nuestra organización lo construimos juntos.
+Formamos equipo con todo compañero, incluidos los no afines.
+La armonía no se logra por casualidad: Se basa en el conocimiento y el aprecio por todos los miembros del equipo.
+Participamos activamente en equipos de alto desempeño y multidisciplinarios.
+Comunicación:\n
+\n
+Nos esforzamos más en escuchar lo que tratan de decirnos.
+No damos nada por obvio.
+No suponemos.
+Evitamos los prejuicios.
+Si no nos llega la información la buscamos.
+No nos callamos cuando tenemos algo que decir."
+        />
+</ScrollView>
+</LinearLayout>

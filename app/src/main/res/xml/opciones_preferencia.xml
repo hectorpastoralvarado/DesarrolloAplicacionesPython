@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/conf_bas">
+
+    <EditTextPreference
+        android:key="nombre_user"
+        android:title="@string/nom_user"
+        android:summary="@string/desc_nom_user"
+        android:dialogTitle="@string/nom_user"
+        />
+    <EditTextPreference
+        android:key="ubicacion_user"
+        android:title="@string/ubic_user"
+        android:summary="@string/des_lug_user"
+        android:dialogTitle="@string/ubic_user"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Configuración Secundaria">
+
+        <CheckBoxPreference
+            android:key="mayor_18"
+            android:title="Mayor de edad"
+            android:summary="Contenido para mayores de edad"
+            />
+        <ListPreference
+            android:key="idioma"
+            android:title="@string/select_idiom"
+            android:summary="@string/cam_idiom"
+            android:dialogTitle="@string/select_idiom"
+            android:entryValues="@array/id_idioma"
+            android:entries="@array/nombre_idioma"
+            />
+        <Preference
+            android:key="@string/btn_regresar"
+            android:title="@string/guardar"
+            android:summary="@string/regresar"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

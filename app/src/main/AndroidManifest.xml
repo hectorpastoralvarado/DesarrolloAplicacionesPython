@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utng.edu.mx.proyectofinal">
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_python"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeRuby">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SeleccionModuloActivity" />
+        <activity android:name=".SeleccionTemaActivity" />
+        <activity android:name=".FormLoginActivity" />
+        <activity android:name=".FormCreateLoginActivity" />
+        <activity android:name=".SeleccionTabActivity" />
+        <activity android:name=".UsuarioInformacionMenuActivity" />
+        <activity android:name=".CalificarAppMenuActivity" />
+        <activity android:name=".AyudaSugerenciasMenuActivity" />
+        <activity android:name=".AcercaDeMenuActivity" />
+        <activity android:name=".ConfiguracionMenuActivity" />
+        <activity android:name=".GraficaMenuActiviry" />
+        <activity android:name=".CuestionarioRadioButtonActivity" />
+        <activity android:name=".CuestionarioEditTextActivity" />
+        <activity android:name=".CuestionarioCheckBoxActivity" />
+        <activity android:name=".ExamenFinalActivity" />
+        <activity android:name=".TerminoTemaOffActivity" />
+        <activity android:name=".EjemploEmailActivity" />
+        <activity android:name=".juegos_main" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".SeleccionPreferenciasActivity"
+            android:label="Configuración"/>
+        <activity android:name=".IndexActivity" />
+        <activity
+            android:name=".ConfiguracionActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".CarrerasUtngActivity" />
+        <activity android:name=".AspirantesUntgActivity" />
+        <activity android:name=".RadioActivity" />
+        <activity android:name=".TvActivity"></activity>
+        <activity android:name=".CanvasActivity"></activity>
+
+        <activity android:name=".MenuGaleriaActivity"></activity>
+        <activity android:name=".GaleriaUnoActivity" />
+        <activity android:name=".LinternaActivity"></activity>
+    </application>
+
+</manifest>

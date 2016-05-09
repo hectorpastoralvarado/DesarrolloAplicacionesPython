@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_python"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desarrollador: Héctor Jesús Pastor Alvarado\nInstitución: Universidad Tecnológica del Norte de GTO\nMateria: Desarrollo de Aplicaciones III\nPastorApps"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pastor_apps_logo"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto_developer"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81b2de"
+        android:id="@+id/btn_untg_index"
+        android:text="UTNG"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81b2de"
+        android:id="@+id/btn_canvas"
+        android:text="Canvas UTNG"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81b2de"
+        android:id="@+id/btn_linterna"
+        android:text="Linterna"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81b2de"
+        android:id="@+id/btn_memorama"
+        android:text="Memorama"
+        android:textColor="#fff"
+        />
+
+
+
+</LinearLayout>

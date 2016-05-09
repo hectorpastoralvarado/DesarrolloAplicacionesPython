@@ -1,0 +1,681 @@
+<resources>
+
+    <string name="nom_user">Escriba el nombre del Usuario</string>
+    <string name="desc_nom_user">Describe el noimbre del usuario</string>
+    <string name="ubic_user">Ubicacion del Usuario</string>
+    <string name="des_lug_user">Describe el lugar de origen del usuario</string>
+    <string name="conf_bas">Configuracion Basica</string>
+    <string name="conf_sec">Configuracion secuendaria</string>
+    <string name="btn_regresar">Guardar</string>
+    <string name="guardar">Guardar</string>
+    <string name="regresar">Regresar a la principal</string>
+    <string name="select_idiom">Selecciona tu idioma</string>
+    <string name="cam_idiom">Cambia el idioma de la App</string>
+    <string name="datos_developer"></string>
+    <string name="contacto_developer">\n\nContacto: hectorj27.hpa@gmail.com\n(044)4151258892</string>
+    <string name="titulo_form">Formulario Usuario\n</string>
+    <string name="edt_usuario">Usuario</string>
+    <string name="edt_pass">Password</string>
+    <string name="edt_mail">E-mail</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_listar">Listar</string>
+    <string name="clic_imagen_cont">Clic en la imagen para continuar\n</string>
+    <string name="developer">PastorApps</string>
+    <string name="gest_user">Gestion de Usuarios</string>
+    <string name="cont_uno_intro">El lenguaje Python fue diseñado a ﬁnales de la década de los ochenta por Guido van Rossum. Se trata de un lenguaje de programación de muy alto nivel, con una sintaxis muy clara y una apuesta ﬁrme por la legibilidad del código. Sin duda es un lenguaje de programación muy versátil, fuertemente tipado, imperativo y orientado a objetos, aunque contiene también características que lo convierten en un lenguaje de paradigma funcional.</string>
+    <string name="prg_uno">Nombre del creador de Python</string>
+    <string name="txv_ayuda">Audio Interactivo</string>
+    <string name="btn_calificar">Calificar</string>
+    <string name="titulo_ingresa_sistem">Ingresa al Sistema\n</string>
+    <string name="btn_ingresa">Ingresar</string>
+    <string name="btn_registrate">Registrate</string>
+    <string name="btn_intro_tem">Introduccion</string>
+    <string name="welcome">Bienvenido</string>
+
+
+    <string name="app_name">Python</string>
+    <string name="title_ruby">iText</string>
+    <string name="form_btn_mas_tarde">Mas Tarde</string>
+    <string name="form_btn_ingresar">Ingresar</string>
+    <string name="form_btn_crear_cuenta">Crear Cuenta</string>
+
+    <string name="login_valido">Daniel</string>
+    <string name="clave_valida">1234</string>
+    <string name="error_autenticar">usuario o password incorrectos</string>
+    <string name="datos_guardados_correctamente">"Los datos se guardaron con exito "</string>
+    <string name="btn_create_guardar">Guardar</string>
+    <string name="btn_create_cancelar">Cancelar</string>
+    <string name="title_login">Login</string>
+
+    <string name="title_create_login_registro">Registro</string>
+    <string name="usuario_create_login_registro">Usuario</string>
+    <string name="pass_create_login_registro">Contraseña</string>
+    <string name="correo_create_login_registro">Correo</string>
+    <string name="modules">Módulos</string>
+
+    <string name="tab_informacon">Información</string>
+    <string name="tab_video">Vídeo</string>
+    <string name="tab_examen">Examen</string>
+
+    <string name="escoge_medio_preferencia">Escoge el medio de preferencia :</string>
+    <string name="mensaje_bien_venido">Bienvenido :</string>
+    <string name="mensaje_ocultar">Ocultar</string>
+    <string name="mensaje_ocultar_toast">Ocultado</string>
+    <string name="tiulo_progreso_menu_bar">Progreso</string>
+
+    <string name="ayuda_sugerencia_ayuda">Ayuda</string>
+    <string name="ayuda_sugerencia_recomendaciones">Recomendaciónes</string>
+    <string name="ayuda_sugerencia_recomendaciones_resp">
+        -Para un mejor uso de esta app se suguiere estar conectado a una red wifi.\n
+        -No conectarse por medio de datos ya que los cargos generados pueden ser grandes.</string>
+    <string name="ayuda_sugerencia_sugerencias">Sugerencias</string>
+    <string name="ayuda_sugerencia_sugerencias_para">Para :</string>
+    <string name="ayuda_sugerencia_sugerencias_correo">hectorj27.hpa@gmail.com</string>
+    <string name="ayuda_sugerencia_sugerencias_tema">Tema :</string>
+    <string name="ayuda_sugerencia_sugerencias_mensage">Mensage :</string>
+    <string name="ayuda_sugerencia_sugerencias_enviar">Enviar</string>
+
+    <string name="acerca_de_titulo_desarrollador">Desarrollador</string>
+    <string name="acerca_de_nom_des">Nombre:</string>
+    <string name="acerca_de_nom_des_rep">Hector Jesus Pastor Alvarado</string>
+    <string name="acerca_de_corr_des">Correo:</string>
+    <string name="acerca_de_corr_des_rep">hectorj27.hpa@gmail.com</string>
+    <string name="acerca_de_titulo_asignatura">Asignatura</string>
+    <string name="acerca_de_nom_asig">Nombre:</string>
+    <string name="acerca_de_nom_asig_res">Desarrollo de aplicaciónes III.</string>
+    <string name="acerca_de_prof_asig">Profesor:</string>
+    <string name="acerca_de_prof_asig_res">Rodriguez Garcia Anastacio.</string>
+    <string name="acerca_de_titulo_universidad">Universidad</string>
+    <string name="acerca_de_nombre_uni">Nombre:</string>
+    <string name="acerca_de_nombre_uni_res">Universidad Tecnológica del Norte de Guanajuato.</string>
+    <string name="acerca_de_ubicacion_uni">Ubicación:</string>
+    <string name="acerca_de_ubicacion_uni_res">Dolores Hidalgo,Campus Central.</string>
+
+    <string name="titulo_calificacion">Calificación</string>
+    <string name="calificacion_enviar">Enviar</string>
+    <string name="calificacion_resultado">Resultado :</string>
+
+    <string name="titulo_configuracion">Configuraciónes</string>
+    <string name="configuracion_titulo_notificaciones">Notificaciónes</string>
+    <string name="configuracion_activar_notificaciones">Activar</string>
+    <string name="configuracion_desactivar_notificaciones">Desactivar</string>
+    <string name="configuracion_titulo_audio">Audio</string>
+    <string name="configuracion_titulo_almacenamiento">Almacenamiento</string>
+    <string name="configuracion_interno_almacenamiento">Interno</string>
+    <string name="configuracion_externo_almacenamiento">Externo</string>
+    <string name="nota_tipo_almacenamiento">Nota: El almacenamiento solo se puede eleguir al momento de crear la cuenta</string>
+
+    <string name="usuario_informacion_titulo">Información</string>
+    <string name="usuario_informacion_nombre">Nomre: </string>
+    <string name="usuario_informacion_nombre_res">Angel Daniel Licea Ruiz</string>
+    <string name="usuario_informacion_correo">Correo: </string>
+    <string name="usuario_informacion_correo_res">adaniel95lira@gmail.com</string>
+    <string name="usuario_informacion_puntos">Puntos: </string>
+    <string name="usuario_informacion_puntos_res">123 pt</string>
+
+    <string name="menu_bar_progreso_on">Progreso</string>
+    <string name="menu_bar_usuario_on">Información del usuario</string>
+    <string name="menu_bar_grafica_on">Gráfica de aprovechamiento</string>
+    <string name="menu_bar_configuracion_on">Configuraciónes</string>
+    <string name="menu_bar_calificar_app_on">Calificar app</string>
+    <string name="menu_bar_acerca_de_on">Acerca de</string>
+    <string name="menu_bar_ayuda_sugerencia_on">Ayuda y sugerencias</string>
+    <string name="menu_bar_salir_on">Salir</string>
+    <string name="menu_bar_juego">Pagina Dinamica</string>
+    <string name="menu_bar_juego_memo">Juego</string>
+    <string name="menu_bar_acerca_de_off">Acerca de</string>
+    <string name="menu_bar_ayuda_sugerencia_off">Ayuda y sugerencias</string>
+    <string name="menu_bar_salir_off">Salir</string>
+    <string name="confirm_pass_create_login_registro">Confirma la contraseña</string>
+
+    <string name="title_menssage_error_uno">Atención!!</string>
+    <string name="title_menssage_error_dos">Atención, campos requeridos!!</string>
+    <string name="button_menssage_error">Aceptar</string>
+    <string name="menssage_error_pass_different">Las contraseñas no coinsiden</string>
+
+    <string name="cuestionario_comprobar">Comprobar</string>
+
+    <string name="calificaciones_examenes">Calificaciónes de los examenes</string>
+
+    <string name="html_tema_concluido_off">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                  <font color="#000000">
+                     has concluido con exito el tema 1 :<i> Sobre Pythoon</i>.
+                  </font>
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+     <string name="html_curso_concluido_parte_uno">
+        <![CDATA[
+                     Has concluido con exito el curso de <i>Python</i> <b>
+        ]]>
+    </string>
+    <string name="html_curso_concluido_parte_dos">
+        <![CDATA[
+                     </b>Has concluido con exito el curso<br />
+        ]]>
+    </string>
+
+    <string name="html_uno_sobre_ruby">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                  Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en una sintaxis que favorezca un código legible.
+
+Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma.
+
+Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,1 que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores.
+
+                 </p>
+                 <p>
+                 <b></b>
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_medio_ambiente_configuracion">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+Python es un lenguaje de programación multiparadigma. Esto significa que más que forzar a los programadores a adoptar un estilo particular de programación, permite varios estilos: programación orientada a objetos, programación imperativa y programación funcional. Otros paradigmas están soportados mediante el uso de extensiones.
+
+Python usa tipado dinámico y conteo de referencias para la administración de memoria.
+
+Una característica importante de Python es la resolución dinámica de nombres; es decir, lo que enlaza un método y un nombre de variable durante la ejecución del programa (también llamado enlace dinámico de métodos).
+
+Otro objetivo del diseño del lenguaje es la facilidad de extensión. Se pueden escribir nuevos módulos fácilmente en C o C++. Python puede incluirse en aplicaciones que necesitan una interfaz programable.
+
+Aunque la programación en Python podría considerarse en algunas situaciones hostil a la programación funcional tradicional del Lisp, existen bastantes analogías entre Python y los lenguajes minimalistas de la familia Lisp como puede ser Scheme.                </p>
+
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_sintaxis">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+                    Ingresa a la Siguiente Direccion para conocer la Documentacion de Python
+                 </p>
+                 https://docs.python.org/2.7/
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_palabras_reservadas">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                    Ingresa a la Siguiente Direccion para conocer la Documentacion de Python
+                 </p>
+                 https://docs.python.org/2.7/
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_variables">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+                 Ingresa a la Siguiente Direccion para intalar Python
+                 </p>
+                 <p>
+                https://www.python.org/downloads/
+                 </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_operadores">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                 Ingresa a la Siguiente Direccion para intalar Python
+                 </p>
+                 <p>
+                https://www.python.org/downloads/
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_uno_comentarios">
+        <![CDATA[
+            <div>
+              <div>
+                 Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License,1 que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores.
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_dos_ciclos">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+              Python es un lenguaje de programación flexible y poderoso, que puedes usar en desarrollo web/de Internet, para escribir interfaces gráficas de usuario (GUI) de escritorio, crear juegos, y mucho más. Python es:
+
+• De alto nivel, lo que quiere decir que leer y escribir en Python es realmente fácil; ¡se parece mucho al inglés común y corriente!
+                </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_dos_metodos">
+        <![CDATA[
+            <div>
+              <div>
+              <p>
+              Observa el video de instalacion de python
+
+              </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+    <string name="notification_text">Go to the application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Anterior">Anterior</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="img1">Texto foto 1</string>
+    <string name="text">¡I\'m a torch!</string>
+    <string name="content_description">Application icon</string>
+    <string name="text_error">I can not access the camera.</string>
+
+
+
+
+
+    <string name="html_dos_modulos">
+        <![CDATA[
+            <div>
+              <div>
+              <p>
+              PdfWriter.getInstance(document,
+                new FileOutputStream("HelloWorld.pdf"));
+
+              </p>
+              <p>
+              En primer lugar se crea una instancia de documento. Esta instancia de documento representa el documento PDF. Para añadir contenido al documento PDF, se llama a los métodos de la instancia de documento.
+En segundo lugar, se crea un PDFWriter, pasando la instancia de documento y un OutputStream a su constructor. La instancia de documento es el documento actualmente estamos añadiendo contenido a. El OutputStream es donde el documento PDF generado se escribe. En este ejemplo, el documento PDF se escribe en un archivo, utilizando un FileOutputStream.
+En tercer lugar, el documento se abre llamando document.open (). Ahora se puede agregar contenido a la instancia de documento.
+En cuarto lugar, el contenido (una instancia de párrafo) se añade a la instancia de documento.
+En quinto lugar, la instancia de documento se cierra, llamando document.close (). Es importante cerrar el documento, para vaciar todo el contenido del documento al formato PDF Writer.
+
+              </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+    <string name="html_dos_bloques">
+        <![CDATA[
+            <div>
+              <div>
+              <p>
+              Uno de los conceptos más básicos en programación son las variables. Una variable es una palabra/identificador que capta un único valor. Por ejemplo, digamos que para tu programa necesitas el número 5, pero no lo vas a usar de inmediato. Puedes establecer una variable, digamos jamon, para que capte el valor 5 y guardarla para usarla más tarde, así:
+
+jamon = 5
+
+Es fácil declarar variables en Python; solamente tienes que escribir un nombre/identificador, como jamon, y usar = para asignarle un valor, ¡y listo!
+
+
+			 </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+    <string name="html_dos_mix">
+        <![CDATA[
+            <div>
+              <div>
+<div>
+			 <p>Se puede establecer la sangría izquierda y derecha del párrafo. Esto mueve el contenido párrafo más lejos de los bordes de la página. Aquí está el código para hacer lo siguiente:
+
+
+
+			 <p>paragraph.setIndentationLeft(50);<br />
+paragraph.setIndentationRight(50);
+
+      </p>
+
+
+		  </div>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+
+
+
+
+    <string name="html_tres_strings">
+        <![CDATA[
+            <div>
+              <div>
+                <p>
+               En 1985, Adobe introdujo el PostScript (PS) Lenguaje de descripción de página (PDL).
+PS es un lenguaje de programación interpretativa. Su objetivo principal es describir el
+aspecto del texto, objetos gráficos, y las imágenes incluidas en la muestra. También proporciona una
+marco para el control de dispositivos de impresión; por ejemplo, especificando el número
+de copias que se imprimirán, activar la impresión a doble cara, y así sucesivamente.
+ También en 1985, Adobe ha desarrollado una aplicación para el Apple Macintosh llamada
+Adobe Illustrator, un programa de dibujo vectorial con su propio formato, AI, que
+fue derivado de PS. Ilustrador fue portado a Windows en 1989, por lo que cubría una
+mercado importante en la industria gráfica.
+ La producción de materiales visuales de alta calidad fue el privilegio de especialistas para una
+mucho tiempo, pero con el advenimiento de PostScript e illustrator, cualquier persona con un ordenador
+
+                </p>
+
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_arreglos">
+        <![CDATA[
+            <div>
+		  <div>
+			 <p>
+
+			 La clase com.itextpdf.text.Chunk en itext representa la más pequeña posible "trozo" de texto. Un pedazo puede contener tan poco como un solo carácter, hasta varias frases.
+			 </p>
+
+			 <p>
+			 document.open();<br />
+            document.add(new Chunk("This is sentence 1. "));<br />
+            document.add(new Chunk("This is sentence 2. "));<br />
+            document.add(new Chunk("This is sentence 3. "));<br />
+
+			 </p>
+			 <p>
+			 el objeto chunk sirve para agregar texto
+			 </p>
+		  </div>
+	   </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_hashes">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>
+            La clase com.itextpdf.text.Document en itext representa un documento PDF. Es una de las clases principales en itext. Si necesita generar un documento PDF a partir de cero, se utilizará la clase de documento.
+
+En primer lugar, debe crear una instancia de documento. A continuación, debe abrirlo. Después de eso se le añade contenido del documento. Finalmente se cierra la instancia de documento.
+
+			 </p>
+
+			 <p>
+			 public class DocumentExample {<br />
+
+    public static void main(String[] args) {<br />
+
+        Document document = new Document();<br />
+
+        <br />
+            document.open();<br />
+
+            document.add(new Paragraph("A Hello World PDF document."));<br />
+
+
+			 </p>
+		  </div>
+	        </div>
+        ]]>
+    </string>
+
+    <string name="html_tres_fecha_hora">
+        <![CDATA[
+                <div>
+		  <div>
+			 <p>
+			 La clase com.itextpdf.text.Phrase en itext representa una "frase" del texto. La clase de frase sabe cómo agregar espacio entre líneas.
+			 <br />
+			 document.open();<br />
+             document.add(new Phrase("This is sentence 1. "));<br />
+             document.add(new Phrase("This is sentence 2. "));<br />
+             document.add(new Phrase("This is sentence 3. "));<br />
+             document.add(new Phrase("This is sentence 4. "));<br />
+
+
+			 </p>
+
+			 <p>
+			 el objeto phrase sirve para agregar texto
+			 </P>
+		  </div>
+	        </div>
+        ]]>
+    </string>
+
+
+
+    <string name="html_cuatro_rangos">
+        <![CDATA[
+            <div>
+            <div>
+			 <p>
+			 objetos párrafo sabe cómo agregar espacio entre líneas si el texto añadido supera el borde derecho del documento. El interlineado se mide en unidades de usuario. Hay 72 unidades por pulgada. El espaciado predeterminado es 1,5 veces la altura de la fuente. Se puede cambiar el espaciado de línea que pasa por el espaciamiento como parámetro al constructor párrafo, de esta manera:
+			 <br />
+			 <br />
+                Paragraph paragraph = new Paragraph(50);<br />
+
+
+			 </p>
+
+		  </div>
+		    </div>
+        ]]>
+    </string>
+     <string name="html_cuatro_iteradores">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>
+			 Puede añadir capítulos y secciones de un documento PDF utilizando itext. Los capítulos están representados por la clase com.itextpdf.text.Chapter. Secciones están representados por la clase com.itextpdf.text.Section.
+			 </p>
+
+		  </div>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_directorios">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>
+			 Este nuevo formato de documento, originalmente llamado intercambio PostScript (IPS), es ahora
+conocido como el formato de documento portátil (PDF). Aunque PostScript (PS) y PDF
+están relacionados, son esencialmente diferentes formatos. PDF no es un lenguaje de programación
+como PS; PDF aprovecha la capacidad del lenguaje PS para representar texto complejo
+y los gráficos y trae esta función a la pantalla, así como a la impresora. Como
+se indica en el PDF de referencia, "oficios PDF reducen la flexibilidad para mejorar la eficiencia
+y previsibilidad ".
+PDF y PS comparten el mismo modelo de imágenes de Adobe subyacente. Un documento PDF
+consta de una secuencia de páginas, con cada página incluyendo las especificaciones de texto, tipo de letra,
+márgenes, diseño, elementos gráficos y de texto y colores de fondo.
+A diferencia de PS, PDF puede contener una gran cantidad de estructura de documentos, enlaces, y otros relacionados
+información. A diferencia de PS, PDF no puede decir la impresora para utilizar una determinada entrada
+bandeja, cambiar la resolución, o utilizar cualquier otra característica específica del hardware. Uno de los
+ventajas clave PDF tiene más de PS es la independencia página. Debido a que es una programación PS
+idioma, algo en la descripción de la página 1 puede afectar a la página 1000, por lo
+para ver la página 1000 que tiene que interpretar todas las páginas antes de ella. Cada página en PDF
+se pueden extraer individualmente.
+PDF se llama el formato de documento portátil debido a un documento PDF puede ser
+ver e imprimir en cualquier plataforma: UNIX, Macintosh, Windows, Linux, o Palm
+OS. En teoría, un documento PDF se ve igual en cualquiera de estas plataformas (vamos a
+discutir algunas excepciones en el capítulo 8, cuando estamos hablando de la incrustación
+fuentes). En analogía con la escritura de Java Una vez, ejecutar en cualquier lugar, se podría decir que es PDF
+Escribir una vez, leer en cualquier lugar, pero de una manera más fiable que el de Java pegadiza
+frase publicitaria promete.
+Camelot era el nombre código original para lo que más tarde se convirtió en Acrobat. Es importante
+no confundir PDF, el lenguaje de descripción, con Acrobat, el conjunto de
+productos de Adobe que se desarrolló junto con la especificación PDF.
+
+
+			 </p>
+		  </div>
+
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_excepciones">
+        <![CDATA[
+            <div>
+                <p>
+                Puede establecer la alineación del párrafo utilizando el método setAlignment (). Esto establece de qué lado de la página que el texto se alinea a. Aquí hay un ejemplo:
+
+                </p><br />
+                <p>
+                paragraph.setAlignment(Element.ALIGN_LEFT);<br />
+paragraph.setAlignment(Element.ALIGN_CENTER);<br />
+paragraph.setAlignment(Element.ALIGN_RIGHT);<br />
+
+
+                </p>
+
+
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_orientado_objetos">
+        <![CDATA[
+            <div>
+                <div>
+			 <p>
+
+También puede ajustar el espaciado antes y después de un párrafo. Así es cómo se hace eso en el código:
+			 </p>
+			 <p><br />
+			 paragraph.setSpacingAfter(50);<br />
+paragraph.setSpacingBefore(50);<br />
+
+			 </p>
+		  </div>
+		    </div>
+        ]]>
+    </string>
+
+    <string name="html_cuatro_expreciones_regulares">
+        <![CDATA[
+            <div>
+                <div>
+                <p>
+                Puede especificar las fuentes para la mayoría de los objetos de texto (Chunk, frase, párrafo, etc.) en itext. En realidad, se puede hacer mucho con fuentes en itext. Demasiado para cubrir aquí, así que voy a cubrir lo básico. Obtener el libro "itext en Acción" para obtener la historia completa sobre las fuentes.
+
+Para utilizar una fuente, primero debe crear el tipo de letra. Luego se le pasa al objeto de texto en el mismo de la constructora
+
+                </p>
+		        </div>
+		    </div>
+        ]]>
+    </string>
+
+
+    <string name="title_activity_settings">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Dany</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="juego">juego</string>
+
+
+</resources>

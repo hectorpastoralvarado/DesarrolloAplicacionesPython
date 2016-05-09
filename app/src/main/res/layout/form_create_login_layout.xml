@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@drawable/mi_scroll"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5pt"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_python"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrate con Nuestra\n comunidad"
+            android:textColor="@color/rojo"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:id="@+id/title_login"
+            />
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/edt_create_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:maxLength="10"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:id="@+id/edt_create_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:textAlignment="center"
+            android:maxLength="10"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/edt_create_pass_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirmar Contraseña"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            />
+        <EditText
+            android:id="@+id/edt_create_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            />
+            <Button
+                android:id="@+id/btn_create_login_guardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mi_boton"
+                android:text="@string/btn_create_guardar"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_idioma">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="nombre_idioma">
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Italiano</item>
+        <item>Frances</item>
+        <item>Chino Mandarin</item>
+    </string-array>
+
+
+    <string-array name="item_menu_principal">
+        <item>Módulo 1</item>
+        <item>Módulo 2</item>
+        <item>Módulo 3</item>
+        <item>Módulo 4</item>
+        <item>Examen final</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo1">
+        <item>¿Que es Python?</item>
+        <item>¿Porque Python?</item>
+        <item>Documentación de Python</item>
+        <item>Manuales de Python</item>
+        <item>Soporte</item>
+        <item>Instalación</item>
+        <item>Video tutorial</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo2">
+        <item>Descripción general</item>
+        <item>Características de Python</item>
+        <item>CODE-Introspección en Python</item>
+        <item>¡Hola, mundo!</item>
+        <item>Ingresando y ejecutando un programa en Windows</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo3">
+        <item>Tipos de Enteros</item>
+        <item>Tipo Cadenas</item>
+        <item>CODE-Tipos de booleanos</item>
+        <item>Tipos de conjuntos</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_modulo4">
+        <item>Tipos de listas</item>
+        <item>Tipos de tuplas</item>
+        <item>CODE-Tipos de diccionarios</item>
+        <item>Operadores aritméticos</item>
+        <item>Operadores relacionales</item>
+        <item>CODE-Sentencias IF</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_examen_final">
+        <item>Deve mandar al el examen final</item>
+    </string-array>
+
+    <string-array name="spinner_audio">
+        <item>Con audio.</item>
+        <item>Sin audio.</item>
+        <item>Con audio y vibración.</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>New Game</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+
+</resources>

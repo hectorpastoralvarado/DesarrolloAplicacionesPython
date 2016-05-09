@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20pt"
+    tools:context=".SeleccionModuloActivity"
+    android:background="@color/trans"
+    android:id="@+id/liner_del_boton"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#000"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_python"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Perfil"
+            android:textSize="25dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:id="@+id/btn_perfil"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_manage"
+            android:background="#000"
+            android:id="@+id/imv_preferences"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_help"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_help"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_about"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_info_details"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/btn_tv"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:src="@android:drawable/presence_video_online"
+            android:layout_margin="5dp"
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/btn_streamin"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:src="@android:drawable/presence_audio_online"
+            android:layout_margin="5dp"
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_calificar"
+            android:background="#000"
+            android:layout_gravity="center"
+            android:src="@android:drawable/star_on"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temas"
+        android:textColor="@color/rojo"
+        android:textSize="10pt"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/lsv_menu_principal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/mi_scroll"
+        android:textColor="@color/negro"
+        android:textAlignment="center"
+        ></ListView>
+
+</LinearLayout>
